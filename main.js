@@ -64,4 +64,3 @@ const token = ''
 bot.login(token);
 
 //Use node . to start the bot in the terminal
-
