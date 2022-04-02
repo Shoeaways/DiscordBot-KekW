@@ -110,5 +110,5 @@ bot.on('message', message => {
 
 
 
-const token = 'ODA5MjI5ODQ5MTY4MDUyMjI0.YCSEBg.Lpbm7z8GNSKdoz2mdWIbarlNOjk'
+const token = 'Your Token'
 bot.login(token);
