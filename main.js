@@ -3,7 +3,8 @@ const fs = require('fs');
 const { send } = require('process');
 const YouTube = require("discord-youtube-api");
 
-//This Creates the discord-youtube-api under the name youtube.
+//##Unsure if this still works## 
+//This Creates the discord-youtube-api under the name youtube. 
 const youtube = new YouTube();
 
 //This will create a new Client under the name bot
@@ -29,7 +30,9 @@ for(const file of commandFiles){
     bot.commands.set(command.name, command);
 }
 
-//let i = 0;
+let current = 0;
+let next = 1;
+let queue = [];
 
 //Starts our bot up and sends a message to the terminal if successfully online
 bot.once('ready', () => {
