@@ -33,7 +33,7 @@ for(const file of commandFiles){
 
 //Starts our bot up and sends a message to the terminal if successfully online
 bot.once('ready', () => {
-    console.log('We on Bitches!');
+    console.log('We on KEK!');
 
     //Sets the bots activity to say "Type !help"
     bot.user.setActivity("Type !help");
@@ -60,55 +60,8 @@ bot.on('message', message => {
 //This allow us to connect the code with the bot itself. bot.login(token)
 //Make sure to hide your token so that other people can't access and mess
 //with the bot
+const token = ''
+bot.login(token);
 
 //Use node . to start the bot in the terminal
 
-//Current OBJ: Make the music have a que so that when you do !play it doesn't replace the current song
-//Next OBJ: Put commands in separate folders/an array and go from there
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const token = 'ODA5MjI5ODQ5MTY4MDUyMjI0.YCSEBg.Lpbm7z8GNSKdoz2mdWIbarlNOjk'
-bot.login(token);
