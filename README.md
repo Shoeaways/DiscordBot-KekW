@@ -15,7 +15,7 @@ A random discord bot made for my friends
            your server)
 
 ### Meme Commands: 
-!Justin  - Calls upon the Justin command ;) 
+!Justin  - Calls upon the Justin command :D
 
 !Milkman - He is the Milkman and his milk is delicious 
 
